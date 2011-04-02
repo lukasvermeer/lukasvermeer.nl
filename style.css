@@ -1,0 +1,110 @@
+body {
+	background: #ccc;
+	background-image: url(mountain.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:bottom left; 
+	font-family: helvetica;
+	text-align: center;
+}
+
+.person {
+	background: #fff;
+	/*
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	*/
+	width: 240px;
+	margin: 20px;
+	float: right;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.portrait img {
+	border-style: solid;
+	border-width: 0 0 3px 0;
+	border-color: #ddd;
+}
+
+
+.name {
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	font-size: smaller;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.bio {
+	width: 200px;
+	text-align: justify;
+	font-size: x-small;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.footer {
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+}
+
+ul {
+	margin-left: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+ul li {
+	margin: 0px;
+	list-style: none;
+	display: inline;
+}
+
+ul li a {
+  display:-moz-inline-box;
+  display:inline-block;
+  background:transparent none 0 0 no-repeat;
+  text-indent:-3000px;
+  font:0/0 Arial;
+  overflow:hidden;
+  color:rgba(255,255,255,0);
+  vertical-align:bottom;
+}
+
+a.icon {
+    width: 32px;
+    height: 32px;
+	margin: 3px;
+	background-image: url(icons/website-32x32.png);
+}
+
+a.delicious { background-image: url(icons/delicious-32x32.png);}
+a.facebook { background-image: url(icons/facebook-32x32.png);}
+a.flickr { background-image: url(icons/flickr-32x32.png);}
+a.github { background-image: url(icons/github-32x32.png);}
+a.google { background-image: url(icons/google-32x32.png);}
+a.hyves{ background-image: url(icons/hyves-32x32.png);}
+a.imdb { background-image: url(icons/imdb-32x32.png);}
+a.kiva { background-image: url(icons/share-32x32.png);}
+a.lastfm { background-image: url(icons/lastfm-32x32.png);}
+a.linkedin { background-image: url(icons/linkedin-32x32.png);}
+a.spotify { background-image: url(icons/spotify-32x32.png);}
+a.twitter { background-image: url(icons/twitter-32x32.png);}
+a.upcoming { background-image: url(icons/upcoming-32x32.png);}
+a.wordpress { background-image: url(icons/wordpress-32x32.png);}
