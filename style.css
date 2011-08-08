@@ -77,14 +77,14 @@ ul li {
 }
 
 ul li a {
-  display:-moz-inline-box;
-  display:inline-block;
-  background:transparent none 0 0 no-repeat;
-  text-indent:-3000px;
-  font:0/0 Arial;
-  overflow:hidden;
-  color:rgba(255,255,255,0);
-  vertical-align:bottom;
+	display:-moz-inline-box;
+	display:inline-block;
+	background:transparent none 0 0 no-repeat;
+	text-indent:-3000px;
+	font:0/0 Arial;
+	overflow:hidden;
+	color:rgba(255,255,255,0);
+	vertical-align:bottom;
 }
 
 a.icon {
@@ -93,6 +93,38 @@ a.icon {
 	margin: 3px;
 	background-image: url(icons/website-32x32.png);
 }
+
+.icon16 {
+	display:-moz-inline-box;
+	display:inline-block;
+	background:transparent none 0 0 no-repeat;
+	text-indent:-3000px;
+	font:0/0 Arial;
+	overflow:hidden;
+	color:rgba(255,255,255,0);
+	vertical-align: middle;
+	width: 16px;
+	height: 16px;
+	margin: 3px;
+	background-image: url(icons/website-16x16.png);
+}
+
+.attribution {
+	float: right;
+	margin: 20px;
+	margin-top: 10px;
+}
+
+.attribution p {
+	vertical-align: middle;
+	font-size: x-small;
+	color: grey;
+}
+
+.attribution p a {
+	color: grey;
+}
+
 
 a.delicious { background-image: url(icons/delicious-32x32.png);}
 a.facebook { background-image: url(icons/facebook-32x32.png);}
@@ -108,3 +140,4 @@ a.spotify { background-image: url(icons/spotify-32x32.png);}
 a.twitter { background-image: url(icons/twitter-32x32.png);}
 a.upcoming { background-image: url(icons/upcoming-32x32.png);}
 a.wordpress { background-image: url(icons/wordpress-32x32.png);}
+span.cc { background-image: url(icons/creativecommons-16x16.png);}
