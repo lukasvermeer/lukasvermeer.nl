@@ -87,11 +87,16 @@ ul li a {
 	vertical-align:bottom;
 }
 
-a.icon {
+li a.icon {
     width: 32px;
     height: 32px;
 	margin: 3px;
 	background-image: url(icons/website-32x32.png);
+}
+
+a {
+	color: grey;
+	text-decoration: none;
 }
 
 .icon16 {
@@ -125,19 +130,18 @@ a.icon {
 	color: grey;
 }
 
-
-a.delicious { background-image: url(icons/delicious-32x32.png);}
-a.facebook { background-image: url(icons/facebook-32x32.png);}
-a.flickr { background-image: url(icons/flickr-32x32.png);}
-a.github { background-image: url(icons/github-32x32.png);}
-a.google { background-image: url(icons/google-32x32.png);}
-a.hyves{ background-image: url(icons/hyves-32x32.png);}
-a.imdb { background-image: url(icons/imdb-32x32.png);}
-a.kiva { background-image: url(icons/share-32x32.png);}
-a.lastfm { background-image: url(icons/lastfm-32x32.png);}
-a.linkedin { background-image: url(icons/linkedin-32x32.png);}
-a.spotify { background-image: url(icons/spotify-32x32.png);}
-a.twitter { background-image: url(icons/twitter-32x32.png);}
-a.upcoming { background-image: url(icons/upcoming-32x32.png);}
-a.wordpress { background-image: url(icons/wordpress-32x32.png);}
+li a.delicious { background-image: url(icons/delicious-32x32.png);}
+li a.facebook { background-image: url(icons/facebook-32x32.png);}
+li a.flickr { background-image: url(icons/flickr-32x32.png);}
+li a.github { background-image: url(icons/github-32x32.png);}
+li a.google { background-image: url(icons/google-32x32.png);}
+li a.hyves{ background-image: url(icons/hyves-32x32.png);}
+li a.imdb { background-image: url(icons/imdb-32x32.png);}
+li a.kiva { background-image: url(icons/share-32x32.png);}
+li a.lastfm { background-image: url(icons/lastfm-32x32.png);}
+li a.linkedin { background-image: url(icons/linkedin-32x32.png);}
+li a.spotify { background-image: url(icons/spotify-32x32.png);}
+li a.twitter { background-image: url(icons/twitter-32x32.png);}
+li a.upcoming { background-image: url(icons/upcoming-32x32.png);}
+li a.wordpress { background-image: url(icons/wordpress-32x32.png);}
 span.cc { background-image: url(icons/creativecommons-16x16.png);}
