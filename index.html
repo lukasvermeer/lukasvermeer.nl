@@ -14,6 +14,13 @@
 		<meta name="keywords" content="lukas,vermeer,lukas vermeer,lucas,oracle,rtd,learning,machines,artificial,intelligence">
 		<link rel="stylesheet" title="Simple Style" href="style.css">
 		<link rel="shortcut icon" href="favicon.ico" />
+		
+		<script type="text/javascript" src="jquery/jquery-1.9.0.min.js"></script>
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    
 		<title>Lukas Vermeer - Forever learning and helping machines do the same</title>
 
 		<script type="text/javascript">
@@ -29,7 +36,62 @@
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
 		</script>
-
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".open_fancybox").click(function() {
+					$.fancybox.open([
+					{
+						href : 'http://farm9.staticflickr.com/8457/7980339567_9b058d1689_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/7980339567">Bald Eagle and Rock Cod, Pacific Rim National Park Reserve, Canada <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm9.staticflickr.com/8182/7973155480_4233012045_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/7973155480">Red Squirrel, Jasper National Park, Canada <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm6.staticflickr.com/5090/5346912015_e96915da75_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/5346912015">Lisanne Krens, Yosemite National Park, CA <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm6.staticflickr.com/5291/5390730113_6e87f455b6_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/5390730113">Chipmunk, Yosemite National Park, California <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm3.staticflickr.com/2784/4048113026_c116b02b23_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/4048113026">Castelo Real de Mogador, Essaouira, Morocco <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm5.staticflickr.com/4060/4420975624_379f3f5286_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/4420975624">Bouquetin des Alpes, Parc National de la Vanoise, France <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm4.staticflickr.com/3600/3373085136_558454091e_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/3373085136">European Robin, Bunnik, the Netherlands <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm4.staticflickr.com/3140/3068481288_6cbcc5aea5_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/3068481288">Filbert Street, San Francisco, California <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm4.staticflickr.com/3196/2721439837_920a96aa71_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/2721439837">Mountain Gorilla, Parc des Volcans, Rwanda <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm2.staticflickr.com/1190/1148325180_9057cc5178_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/1148325180">Ruta de los Volcanes, La Palma, Canary Islands <span class="icon16 cc">(cc)</span></a>'
+					},
+					{
+						href : 'http://farm1.staticflickr.com/7/8450264_823216ed98_b.jpg',
+						title : '<a href="http://www.flickr.com/photos/lukasvermeer/8450264">Sea Lion, Galapagos Islands, Ecuador <span class="icon16 cc">(cc)</span></a>'
+					}], {
+						padding : 5, helpers : { title: { type: 'inside' }}
+					});
+					return false;
+				});
+			});
+		</script>
+		
 		<script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
 	</head>
 	<body>
@@ -37,7 +99,7 @@
 			<a href="http://www.flickr.com/photos/lukasvermeer/7101670931/" class="portrait"><img src="lukas.jpg" alt="Lukas Vermeer"></a>
 			<h1 class="name">Lukas Vermeer</h1>
 			<h2 class="title">Forever learning and helping machines do the same</h2>
-			<p class="bio">Lukas is a highly motivated computing science graduate focusing mainly on data mining and machine learning problems but sporting a broader interest in all things 'computationally elegant'. He is currently employed by Oracle, working on Business Intelligence and Real-Time Decisions.</p>
+			<p class="bio">Lukas is a highly motivated computing science graduate focusing mainly on data mining and machine learning problems but sporting a broader interest in all things 'computationally elegant'.</p>
 			<p class="bio">Lukas is also a bit of a smart ass, who likes to refer to himself in the third person. Really, he does.</p>
 			<ul>
 				<li><a href="http://del.icio.us/lukasvermeer" class="icon delicious">Delicious</a></li>
@@ -62,7 +124,7 @@
 		</div>
 
          <div class="person">
-         		<a href="http://lukasvermeer.wordpress.com" class="portrait"><img src="writing.jpg" alt="Writing"></a>
+         	<a href="http://lukasvermeer.wordpress.com" class="portrait"><img src="writing.jpg" alt="Writing"></a>
 			<h1 class="name"></h1>
 			<h2 class="title"><a href="http://lukasvermeer.wordpress.com">Blog</a></h2>
 			<p class="bio"></p>
@@ -70,13 +132,12 @@
 		</div>
 
          <div class="person">
-         		<a href="http://flickr.com/photos/lukasvermeer/" class="portrait"><img src="photo.jpg" alt="Photography"></a>
+			<a class="portrait open_fancybox" href="photo.jpg"><img src="photo.jpg" alt="Photography"></a>
 			<h1 class="name"></h1>
 			<h2 class="title"><a href="http://flickr.com/photos/lukasvermeer/">Photography</a></h2>
 			<p class="bio"></p>
 			<p class="footer"></p>
 		</div>
-
 
 		<div class="attribution">
 			<p>SOCIAL MEDIA ICONS by <a href="http://paulrobertlloyd.com/2009/06/social_media_icons">Paul Robert Lloyd</a> <span class="icon16 cc">(cc)</span></p>
